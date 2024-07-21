@@ -10,7 +10,7 @@ screen.bgcolor("black")
 # screen.tracer(0) # create the paddles without seeing the moving
 paddler=Paddle(350, 0)
 paddlef=Paddle(-350,0)
-screen.update()  #see the paddles
+screen.update()  #see the paddless
 
 ball=Ball(paddler,paddlef)
 
