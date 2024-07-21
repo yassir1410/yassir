@@ -1,6 +1,7 @@
 from turtle import Turtle
 from paddle import Paddle
 class Ball(Turtle):
+    # initialize the ball
     def __init__(self, paddler: "Paddle",paddlef:"Paddle"):
         super().__init__()
         self.shape("circle")
